@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav className={show ? "navbar show_navbar" : "navbar"}>
         <div className="logo">
-          <img src="/logo.png" alt="logo" />
+            <b>Blue-Collar Connect</b>
         </div>
         <div className="links">
           <ul>
