@@ -868,13 +868,17 @@ footer div ul a span {
 }
 .account .component_header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin-bottom: 2rem;
 }
 .account .component_header p {
   font-weight: 500;
   color: #111;
+}
+.account .component_header p:last-child {
+  position: relative;
+  margin-left: 18.31%;
 }
 .account .component_header p:last-child span {
   color: #dfdf07;
